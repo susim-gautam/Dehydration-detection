@@ -1,25 +1,25 @@
-# Dehydration-detection
+# Hydration Status Prediction
 
-
-Hydration Status Prediction
 This project predicts hydration status using a trained Artificial Neural Network (ANN) model. It features a Python backend (Flask or FastAPI) and a React-based frontend for user interaction.
-Features
-Predicts hydration status from user input data
-Pre-trained ANN model (hydration_ann_model.h5)
-Data normalization using a pre-fitted scaler (scaler.pkl)
-REST API backend (app.py)
-Modern React frontend (hydration-status folder)
 
+## Features
 
+- Predicts hydration status from user input data
+- Pre-trained ANN model (`hydration_ann_model.h5`)
+- Data normalization using a pre-fitted scaler (`scaler.pkl`)
+- REST API backend (`app.py`)
+- Modern React frontend (`hydration-status` folder)
 
+## Project Structure
 .
-├── app.py                      # Backend API (Flask or FastAPI)
-├── hydration_ann_model.h5      # Trained ANN model
-├── scaler.pkl                  # Pre-fitted scaler for input normalization
-├── hydration-status/           # React frontend application
-│   ├── public/
-│   └── src/
+├── app.py # Backend API (Flask or FastAPI)
+├── hydration_ann_model.h5 # Trained ANN model
+├── scaler.pkl # Pre-fitted scaler for input normalization
+├── hydration-status/ # React frontend application
+│ ├── public/
+│ └── src/
 └── README.md
+
 
 
 Getting Started
