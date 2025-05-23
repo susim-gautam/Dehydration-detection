@@ -1,6 +1,6 @@
 # Hydration Status Prediction
 
-This project predicts hydration status using a trained Artificial Neural Network (ANN) model. It features a Python backend (Flask or FastAPI) and a React-based frontend for user interaction.
+This project predicts hydration status using a trained Artificial Neural Network (ANN) model. It features a Python backend (Flask or FastAPI) and a React-based frontend for user interaction.The model classifies hydration status into three categories: Hydrated, Mildly Dehydrated, and Dehydrated, based on user input data.
 
 ## Features
 
