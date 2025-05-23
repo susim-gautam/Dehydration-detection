@@ -10,27 +10,33 @@ This project predicts hydration status using a trained Artificial Neural Network
 - REST API backend (`app.py`)
 - Modern React frontend (`hydration-status` folder)
 
-## Project Structure
+## 📁 Project Structure
+```
 .
-├── app.py # Backend API (Flask or FastAPI)
+├── app.py                  # Backend API (Flask or FastAPI)
 ├── hydration_ann_model.h5 # Trained ANN model
-├── scaler.pkl # Pre-fitted scaler for input normalization
-├── hydration-status/ # React frontend application
-│ ├── public/
-│ └── src/
+├── scaler.pkl             # Pre-fitted scaler for input normalization
+├── hydration-status/      # React frontend application
+│   ├── public/
+│   └── src/
 └── README.md
+```
+
 
 
 
 ## Getting Started
-- 1. Clone the Repository
-- git clone https://github.com/your-username/your-repo-name.git
-- cd your-repo-name
+```
+1. Clone the Repository
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
 
-- 2. Run the backend
-- python app.py
+2. Run the backend
+   python app.py
 
-- 3. Frontend Setup
-- cd hydration-status
-- npm install
-- npm run dev
+3. Frontend Setup
+   cd hydration-status
+   npm install
+   npm run dev
+```
+
