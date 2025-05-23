@@ -22,15 +22,15 @@ This project predicts hydration status using a trained Artificial Neural Network
 
 
 
-Getting Started
-1. Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+## Getting Started
+- 1. Clone the Repository
+- git clone https://github.com/your-username/your-repo-name.git
+- cd your-repo-name
 
-2. Run the backend
-python app.py
+- 2. Run the backend
+- python app.py
 
-3. Frontend Setup
-cd hydration-status
-npm install
-npm run dev
+- 3. Frontend Setup
+- cd hydration-status
+- npm install
+- npm run dev
